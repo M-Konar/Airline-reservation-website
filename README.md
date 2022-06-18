@@ -1,6 +1,4 @@
-# unique-and-in-English-only-hhhhhh #
-
-#Project Title#: Zeyad Tyara air travel agecy  website.
+#Project Title#: Zeyad Tyara air travel agecy website.
 
 It's a website for Those who love travelling and adventure!
 - As a user you can book you can view all the available flights with all the search filters that helps you find the flight that suits you the best.
