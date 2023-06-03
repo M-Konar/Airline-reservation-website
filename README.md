@@ -1,170 +1,179 @@
-#Zeyad Tyara air travel agecy website#
+# Zeyad Tyara Air Travel Agency Website
 
-It's a website for Those who love travelling and adventure!
-- As a user you can book you can view all the available flights with all the search filters that helps you find the flight that suits you the best.
-- You can book the flight online, cancel it, ..etc (the user part is not implemented yet in sprint 1.)
- 
-- As an Admin, you can create new flights, view all the available flights using filters to search among them, edit available flights and delete them with ease simply by pressing on buttons that exist on the flight cards. 
-- All changes done by the admin are reflected instantaneously on the backend and the DB.
- The website is implemeted using the MERN stack( Mern stands for MongoDB- Express- React- NodeJS) and the DB is hosted on the cloud using MongoDB free plan.   
+Welcome to the Zeyad Tyara Air Travel Agency website, dedicated to those who love traveling and adventure!
 
+## Features
 
+- View and book flights: As a user, you can explore all available flights using search filters to find the one that suits you best. You have the convenience of booking your flights online.
+- Flight management (Admin): As an admin, you have full control over flight management. You can create new flights, view existing flights with search filters, and easily edit or delete flights using the intuitive interface.
+- Real-time updates: Any changes made by the admin are instantly reflected on the backend and the database.
+- Technology stack: The website is built using the MERN stack (MongoDB, Express, React, Node.js), ensuring a robust and efficient development experience. The database is hosted on the cloud using the MongoDB free plan.
 
-Motivation: 
-The project was created as instructed in the Advanced Computer Lap course. We, frankly speaking, did it for the grades :D, but also to have fun and test our self-learning and programming skills as future computer engineers. 
+## Motivation
 
-Build Status:The Project is working perfectly without any errors or bugs
+This project was created as part of the Advanced Computer Lab course. While our primary motivation may have been the grades (who doesn't love good grades?), we also had a lot of fun and utilized the opportunity to test our self-learning and programming skills as aspiring computer engineers.
 
+## Build Status
 
-Code Style:
-The Project is split in to two parts Client side which represents the frontend, and the Server side which represents the backend.
-The Model-View-Controller style was used in the project's backend side. Their is a folder dedicated for each category(Model-View-Controller) for each category of users(Admin-Guest-User).
-The client side is split into components that each component is the front-end that maps to a functionality in the backend.
+The project is functioning flawlessly without any errors or bugs.
 
+## Code Style
 
+The project is divided into two parts: the client-side (frontend) and the server-side (backend). We have followed the Model-View-Controller (MVC) architecture in the backend, organizing each category of users (Admin, Guest, User) into separate folders within the project structure. On the client-side, components are modularized, with each component representing a specific frontend functionality that maps to the backend.
 
-Screenshots:Search for your desired flight from the homepage directly.
-
-Login Portal
-![image](https://user-images.githubusercontent.com/82762206/147352812-873973a1-4410-4d75-b8d3-a9b8f04ecd2c.png)
-Signup Portal
-![image](https://user-images.githubusercontent.com/82762206/147352950-2617e407-b2cb-470e-998d-d539cbd8cb47.png)
-Creating a new flight(exclusive for admins only)
-![image](https://user-images.githubusercontent.com/82762206/147359496-9e3e9c15-27d1-4466-89a1-f46310f6c584.png)
-
-Editing or deleting an existent flight(exclusive for admins only)
-![image](https://user-images.githubusercontent.com/82762206/147359684-38b58c1d-3fd7-4a27-a633-f5a80afd00d4.png)
-![image](https://user-images.githubusercontent.com/82762206/147359765-25bbcbc7-de76-401c-aaa6-446ead4ba5aa.png)
-
-Reserving a Flight(Users)
-![image](https://user-images.githubusercontent.com/82762206/147392593-569afc35-f22a-499c-b65f-39dc4eaca290.png)
-![image](https://user-images.githubusercontent.com/82762206/147392602-c34bc662-7485-4679-8546-242260374664.png)
-![image](https://user-images.githubusercontent.com/82762206/147392654-d3466269-5b30-4d79-942e-ddcf0d5f2d08.png)
-
-Payment for Reservation(Users)
-![image](https://user-images.githubusercontent.com/82762206/147392729-e1f89d0f-2dac-433a-9211-287b56ee26d4.png)
-![image](https://user-images.githubusercontent.com/82762206/147392737-1816f229-cd4f-4a66-8fb7-83249b544a24.png)
-
-Updating personal info(Users)
-
-![image](https://user-images.githubusercontent.com/82762206/147392765-b9886719-a0fb-4d84-b9d4-0677f4a6b1d9.png)
-
-View/Cancel/Edit my resrvations(Users)
-
-![image](https://user-images.githubusercontent.com/82762206/147392795-5e25af80-0f06-4094-a399-91c10b4bdebc.png)
-
-Edit reservation(Users)
-
-![image](https://user-images.githubusercontent.com/82762206/147392896-2e6b061e-cf3e-47b0-838a-c054b99ec28f.png)
+## Screenshots
 
 
+<p align="center">Login Portal</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/754492bd-7cf5-46f5-89f3-9c5eb4c4edc4" alt="Login Portal" width="400">
+</p>
+
+<br><p align="center">Signup Portal</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/19ae84d5-827a-4e60-afca-a737bf1f3c0e" alt="Signup Portal" width="400">
+</p>
+
+<br><p align="center">Creating a New Flight (exclusive for admins only)</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/ea5ec124-49b4-4efb-b1e2-38eed064f73a" alt="Creating a New Flight" width="400">
+</p>
 
 
+<br><p align="center">Editing or Deleting an Existing Flight (exclusive for admins only)</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/34c0f69d-b5ee-4d12-9e58-afcbb931a545" alt="Editing or Deleting an Existing Flight 1" width="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/5073d191-c5b2-4fb9-a307-923dc43b487e" alt="Editing or Deleting an Existing Flight 2" width="400">
+</p>
 
 
+<br><p align="center">Reserving a Flight (Users)</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/69720b76-5bde-4cca-a009-3c9b8b558948" alt="Reserving a Flight 1">
+</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/26f27744-9b92-4417-af2e-2b6e79911d51" alt="Reserving a Flight 2">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/82762206/147392654-d3466269-5b30-4d79-942e-ddcf0d5f2d08.png" alt="Reserving a Flight 3">
+</p>
 
 
+<br><p align="center">Payment for Reservation (Users)</p>
 
-Tech/Framework used:MongoDB-Express Routing-React Js-Node Js (MERN Stack)
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/f76db51d-3b34-4e9c-88ad-62aab361792e" alt="Payment for Reservation 1" >
+</p>
 
-Features:1-Users can Login by Facebook without the need to signup
-         2-Admin can create flights
-         3-Admin can edit existent flights
-         4-Admin can delete existent flights
-         5-User can search flights
-         6-User can reserve a flight
-         7- it is a must for user to reserve departure and return flights at the time of reservation
-         8-User must pay for a reserved flight at the time of reservation
-         9-An email will be sent to the user once the payment for the reservation is complete
-         10-User can cancel his flight
-         11-An email will be sent automatically when the user cancels his reservation
-         12-User can edit their personal information(passport number-password-first name-last name-telephone number)
-         
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/ab56f3cf-ce02-40fd-87c0-e42c2fadd150" alt="Payment for Reservation 2" >
+</p>
 
-```
-######
+<br><p align="center">Updating Personal Information (Users)</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/0757ae73-57bc-4f7d-8577-38a1d03dfb55" alt="Updating Personal Information" width="400">
+</p>
 
 
- 
-Installation:1-install npm
+<br><p align="center">View/Cancel/Edit My Reservations (Users)</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/a7087136-6198-4d89-8d97-6ccb1c7dfaba" alt="View/Cancel/Edit My Reservations" width="400">
+</p>
+
+
+<br><p align="center">Edit Reservation (Users)</p>
+
+<p align="center">
+  <img src="https://github.com/m-abdelgaber/Airline-reservation-website/assets/85055466/8135b1cb-425f-4468-9711-6fa86e9a6d35" alt="Edit Reservation" width="400">
+</p>
+
+
+## Tech/Framework Used
+
+The Zeyad Tyara Air Travel Agency website is built using the following technologies and frameworks:
+- MongoDB
+- Express.js
+- React.js
+- Node.js (MERN Stack)
+
+## Installation
+
+To install and run the project, follow these steps:
+
+1. Install npm:
 ```
 npm install
 ```
-2-install module express
+2. Install the Express module:
 ```
 npm i express
 ```
-3-install module cors
+3. Install the CORS module:
 ```
 npm i cors
 ```
-4-install module bcrypt
+4. Install the Bcrypt module:
 ```
 npm i bcrypt
 ```
-5-install stripe
+5. Install Stripe:
 ```
 npm i stripe
 ```
 
+## API Reference
 
-API reference:
-https://nodemailer.com/about/
+To integrate with external services, we have used the following API references:
+- [Nodemailer](https://nodemailer.com/about/)
+- [Stripe API Authentication](https://stripe.com/docs/api/authentication)
+- [Unsplash API Documentation](https://unsplash.com/documentation)
 
-https://stripe.com/docs/api/authentication
+## Tests
 
-https://unsplash.com/documentation
+For testing backend functions before integrating them with the frontend, we recommend using the Postman application. You can download it from [here](https://www.postman.com/downloads/). Additionally, you can utilize Chrome Developer Tools for testing and debugging purposes.
 
-Tests:Use postman application in testing backend functions before integrating the functions with the frontend and use chrome developer tools
+## How to Use
 
-Postman download link:https://www.postman.com/downloads/
+The project consists of two parts: the frontend and the backend. Both parts need to be running to experience the full functionality of the flight reservation system.
 
+To run the backend:
 
-
-
-How to Use:The project is split to two parts frontend and backend.
-Both parts must be run to see the full functionality of the flight reservation system.
-################################################################
-In order to run the backend part:
-1-open the console.
-2-change directory to Server
+1. Open the console.
+2. Change the directory to `Server`:
 ```
 cd Server
 ```
-3-run the backend by using
+3. Start the backend server:
 ```
 node index
 ```
-################################################################
 
-Now that we have run the back let's run the front end:
-1-open a new terminal
-2-change directory to Client
+To run the frontend:
+
+1. Open a new terminal.
+2. Change the directory to `Client`:
 ```
 cd Client
 ```
-3-start the front-end by writing this to the console
+3. Start the frontend:
 ```
 npm start
 ```
-Your default browser will load the website and you can navigate through it normally.
-If you want to login as an admin you will have to write the route yourself /adminLogin
 
+Your default browser will load the website, and you can navigate through it normally. If you want to log in as an admin, you need to manually enter the route `/adminLogin`.
 
+## Contribute
 
-Contribute:
-You can contribute by sending your feedback on email airlineszeyad@gmail.com
-
-
-Credits:
-
-Mohamed Mahmoud Abdulatif Konar
-
-Mahmoud Ahmed Abdelkhaleq
-
-Ali Helmy Youssef
-
-Zeyad Elsaed Elnagar
-
-Omar Usama Mahmoud Elnagar
-
+We welcome contributions and feedback from the community. Feel free to share your thoughts and suggestions by sending an email to airlineszeyad@gmail.com. Together, we can make the Zeyad Tyara Air Travel Agency website even better!
